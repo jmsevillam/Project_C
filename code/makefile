@@ -6,6 +6,6 @@ target:
 	${CC} main.cpp -o outfile.out
 	@echo "After Compiling"
 run:
-	./outfile.out
+	@./outfile.out
 clean:
 	rm *.out
